@@ -102,7 +102,7 @@ export default function Home() {
               className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg rounded-lg shadow-lg transition-all flex items-center justify-center mx-auto"
             >
               <i className="fa-brands fa-steam mr-3 text-2xl"></i>
-              前往Steam库的钢铁雄心4页面
+              前往游戏
             </motion.button>
           </motion.div>
         </div>

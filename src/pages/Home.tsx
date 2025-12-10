@@ -62,11 +62,11 @@ export default function Home() {
     }
   };
 
-  // 处理跳转到Steam库的钢铁雄心4页面
+  // 处理跳转到钢铁雄心4
   const handleSteamLibraryClick = () => {
     const steamUrl = getSteamLibraryUrl();
     window.open(steamUrl, '_blank');
-    toast('正在打开Steam库的钢铁雄心4页面...');
+    toast('正在打开钢铁雄心4...');
   };
 
   return (
@@ -102,7 +102,7 @@ export default function Home() {
               className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg rounded-lg shadow-lg transition-all flex items-center justify-center mx-auto"
             >
               <i className="fa-brands fa-steam mr-3 text-2xl"></i>
-              前往游戏
+              前往钢铁雄心4
             </motion.button>
           </motion.div>
         </div>
